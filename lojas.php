@@ -1,6 +1,6 @@
 <?php 
 $lojas = [
-    'Loja 1' =>[
+    'Italiana' =>[
         '1'=>[
             'nome' => 'Macarronada Premium 1',
             'preco' => 50
@@ -13,7 +13,7 @@ $lojas = [
             'nome' => 'Macarronada Premium 3',
             'preco' => 50
         ],    ],
-    'Loja 2' =>[
+    'Gaucha' =>[
         '1'=>[
             'nome' => 'Churrascada 1',
             'preco' => 50
@@ -31,7 +31,7 @@ $lojas = [
             'preco' => 50
         ],
     ],
-    'Loja 3' =>[
+    'Confeitaria' =>[
         '1'=>[
             'nome' => 'Bolo Premium 1',
             'preco' => 50
