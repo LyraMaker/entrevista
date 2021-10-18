@@ -24,7 +24,13 @@ function listarPratos($array,$nLoja){
     echo "------ ESCOLHA UM DOS PRATOS ------ " . PHP_EOL;
     foreach($array[$nLoja] as $chave => $prato){
         echo "Prato n° $chave - {$prato['nome']} no preço de R$ {$prato['preco']}".PHP_EOL;
-        
     }
+}
 
+function verificarExclusivo($array,$idMoto):bool{
+    if(count($array[$idMoto]['atende'])>1){
+        return FALSE;
+    }else{
+        return TRUE;
+    };
 }
