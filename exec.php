@@ -4,7 +4,6 @@ include 'lojas.php';
 include 'funcionalidades.php';
 
 
-echo "------ LISTA DOS ENTREGADORES ------ " . PHP_EOL;
 
 $pedido =1;
 
